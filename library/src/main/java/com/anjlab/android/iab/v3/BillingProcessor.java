@@ -196,8 +196,8 @@ public class BillingProcessor extends BillingBase
 
 	private static Intent getBindServiceIntent()
 	{
-		Intent intent = new Intent("com.android.vending.billing.InAppBillingService.BIND");
-		intent.setPackage("com.android.vending");
+		Intent intent = new Intent("ir.cafebazaar.pardakht.InAppBillingService.BIND");
+		intent.setPackage("com.farsitel.bazaar");
 		return intent;
 	}
 
